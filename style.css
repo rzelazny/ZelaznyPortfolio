@@ -8,7 +8,15 @@
 /* Modify screen layout for mobile */
 @media screen and (max-width: 768px) {
   
-    /* The wrapper's width will be 600px */
-    .wrapper {
-      width: 600px;
+    /* Add margin to headers on mobile */
+    .header{
+        margin-top: 40px;
     }
+    /* Add margin to cards on mobile */
+    .card{
+        margin-bottom: 10px;
+    }
+    /* The wrapper's width will be 600px 
+    .wrapper {
+      width: 600px;*/
+}
