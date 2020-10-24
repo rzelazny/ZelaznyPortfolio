@@ -19,6 +19,9 @@ body{
     max-width: 40px;
     max-height: 40px;
 }
+.card{
+    margin-bottom: 10px;
+}
 
 /* Modify screen layout fpr md size screens */
 @media screen and (max-width: 768px) {
@@ -27,13 +30,7 @@ body{
     .header{
         margin-top: 20px;
         text-align: center;
-    }
-
-
-    /* Add margin to cards on mobile */
-    .card{
-        margin-bottom: 10px;
-    }
+    }    
 }
 
 /* Modify layout for xs size screens */
@@ -44,9 +41,4 @@ body{
         margin-top: 20px;
         text-align: center;
     }
-    /* Add margin to cards on mobile */
-    .card{
-        margin-bottom: 10px;
-    }
-
 }
