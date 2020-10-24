@@ -10,28 +10,42 @@ body{
 .section{
     padding: 10px;
 }
+/* Home page headshot image */
 #headshot{
     margin: 20px;
+    
+}
+.icon{
+    max-width: 40px;
+    max-height: 40px;
 }
 
-/* Modify screen layout for mobile */
+/* Modify screen layout fpr md size screens */
 @media screen and (max-width: 768px) {
   
     /* Add margin to headers on mobile */
     .header{
-        margin-top: 40px;
+        margin-top: 20px;
     }
-    /* Keep mobile icons small */
-    .icon{
-        max-width: 50px;
-        max-height: 50px;
-    }
-
     /* Add margin to cards on mobile */
     .card{
         margin-bottom: 10px;
     }
-    /* The wrapper's width will be 600px 
-    .wrapper {
-      width: 600px;*/
+}
+
+/* Modify layout for xs size screens */
+@media screen and (max-width: 576px) {
+  
+    /* Add margin to headers on mobile */
+    .header{
+        margin-top: 20px;
+    }
+    .icon{
+        align-content: center;
+    }
+    /* Add margin to cards on mobile */
+    .card{
+        margin-bottom: 10px;
+    }
+
 }
