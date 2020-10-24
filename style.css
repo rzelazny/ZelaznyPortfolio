@@ -1,8 +1,11 @@
-*{
+body{
+    background-color: slategray   ;
+}
+.container{
     background-color: blanchedalmond;
 }
 #headshot{
-    margin-left: 20px;
+    margin: 20px;
 }
 .icon{
     width: 50px;
