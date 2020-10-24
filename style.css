@@ -23,10 +23,13 @@ body{
 /* Modify screen layout fpr md size screens */
 @media screen and (max-width: 768px) {
   
-    /* Add margin to headers on mobile */
+    /* Add margin and center headers on mobile */
     .header{
         margin-top: 20px;
+        text-align: center;
     }
+
+
     /* Add margin to cards on mobile */
     .card{
         margin-bottom: 10px;
@@ -36,12 +39,10 @@ body{
 /* Modify layout for xs size screens */
 @media screen and (max-width: 576px) {
   
-    /* Add margin to headers on mobile */
+    /* Add margin and center headers on mobile  */
     .header{
         margin-top: 20px;
-    }
-    .icon{
-        align-content: center;
+        text-align: center;
     }
     /* Add margin to cards on mobile */
     .card{
