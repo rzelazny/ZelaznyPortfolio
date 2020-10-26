@@ -1,5 +1,6 @@
 body{
-    background-color: slategray;
+    background-image: url("assets/background.jpg");
+    background-size: 2000px;
 }
 .container{
     background-color: blanchedalmond;
