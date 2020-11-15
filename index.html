@@ -10,34 +10,35 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <title>Ryan Zelazny Homepage</title>
 </head>
-<body>
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<body></body>
+  <div class="container">
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-      <a class="navbar-brand" href="https://rzelazny.github.io/ZelaznyPortfolio/">Ryan Zelazny</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="https://rzelazny.github.io/ZelaznyPortfolio/index.html">Home<span class="sr-only">(current)</span></a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="https://rzelazny.github.io/ZelaznyPortfolio/portfolio.html">Portfolio</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="https://rzelazny.github.io/ZelaznyPortfolio/contact.html">Contact Me</a>
-            </li>
+    <a class="navbar-brand" href="https://rzelazny.github.io/ZelaznyPortfolio/">Ryan Zelazny</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="https://rzelazny.github.io/ZelaznyPortfolio/index.html">Home<span class="sr-only">(current)</span></a>
           </li>
-        </ul>
-      </div>
-    </nav>
-    <br>
 
-    <div class="container">
+          <li class="nav-item">
+            <a class="nav-link" href="https://rzelazny.github.io/ZelaznyPortfolio/portfolio.html">Portfolio</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://rzelazny.github.io/ZelaznyPortfolio/contact.html">Contact Me</a>
+          </li>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <br>
+  
+    <div class="container" id="home">
       <div class="row">
         <!-- Headshot column -->
         <div class="col-md-3">
@@ -78,14 +79,92 @@
             </div>
               <p>HTML, CSS, StepWise, JavaScript, SQL, VBA, XML</p>
           </div>
-          <button class="btn" id="resume-download"><i class="fa fa-download"></i> Download Resume</button>
+            <a href="#" class="btn" id="resume-download"><i class="fa fa-download"></i> Download Resume</a>
           <br>
+          <br>
+          </div>
+        </div>
+    </div> 
+    <div class="container" id="portfolio">
+      <div class="section">
+        <div class="header">
+          <h2>Portfolio</h2>
+        </div>
+        <!-- Row 1 -->
+        <div class="row">
+          <div class="col-lg-4">
+              <div class="card mx-auto" style="width: 18rem;">
+                <img src="assets/images/Horiseon page.png" class="card-img-top" alt="Horiseon page sample">
+                <div class="card-body">
+                  <h5 class="card-title">Code Refactor</h5>
+                  <p class="card-text">Refactoring Horiseon webpage to conform to accessibility standards.</p>
+                  <a href="https://rzelazny.github.io/codeRefactor/" target="_blank" class="btn btn-primary stretched-link">Horiseon home</a>
+                </div>
+              </div>
+            </div>
+          <div class="col-lg-4">
+            <div class="card mx-auto" style="width: 18rem;">
+              <img src="assets/images/CatMouse.png" class="card-img-top" alt="Cat and Mouse game">
+              <div class="card-body">
+                <h5 class="card-title">Coding Practice</h5>
+                <p class="card-text">Basic coding pratice. A game of cat and mouse via scratch</p>
+                <a href="https://scratch.mit.edu/projects/436867181/" target="_blank" class="btn btn-primary stretched-link">Game of Cat and Mouse</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card mx-auto" style="width: 18rem;">
+              <img src="https://via.placeholder.com/150" class="card-img-top" alt="placeholder">
+              <div class="card-body">
+                <h5 class="card-title">More to come</h5>
+                <p class="card-text">More projects coming soon.</p>
+                <a href="#" class="btn btn-primary stretched-link">Coming Soon</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <!-- Row 2 -->
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="text-center" target="_blank">Or check out everything I've done on <a href="https://www.github.com/rzelazny">GitHub </a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="contact">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="header">
+            <h2>Contact Me</h2>
+          </div>
+          <p>You can contact me via email at RyanZelazny@gmail.com or via a message on LinkedIn or GitHub</p>
+          <br>
+          <!-- Contact Row 1 -->
+          <div class="row">
+            <div class="col-xs-1">
+              <img src="assets/images/GitHub.png" class="img-fluid icon" alt="GitHub icon">
+            </div>
+            <div class="col-xs-11">
+              <a href="https://github.com/rzelazny" target="_blank">My GitHub profile</a> 
+            </div>
+          </div>
+          <br>
+          <!-- Contact Row 2 -->
+          <div class="row">
+            <div class="col-xs-1">
+              <img src="assets/images/LinkedIn.png" class="img-fluid mx-auto d-block icon" alt="LinkedIn Icon">
+            </div>
+            <div class="col-xs-11">
+              <a href="https://www.linkedin.com/in/ryan-zelazny-62369849/" target="_blank">My LinkedIn profile</a> 
+            </div>
+          </div>
           <br>
         </div>
       </div>
-    </div> 
+    </div>
   </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script src="assets/javascript/config.js"></script>
