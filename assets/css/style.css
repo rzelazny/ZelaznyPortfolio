@@ -1,5 +1,5 @@
 body{
-    background-image: url("assets/background.jpg");
+    background-image: url("../images/background.jpg");
     background-size: 2000px;
 }
 .container{
@@ -27,7 +27,7 @@ body{
 
 /* Modify screen layout fpr md size screens */
 @media screen and (max-width: 768px) {
-  
+
     /* Add margin and center headers on mobile */
     .header{
         margin-top: 20px;
@@ -37,7 +37,7 @@ body{
 
 /* Modify layout for xs size screens */
 @media screen and (max-width: 576px) {
-  
+
     /* Add margin and center headers on mobile  */
     .header{
         margin-top: 20px;
