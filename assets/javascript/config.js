@@ -16,7 +16,7 @@ $("#nav-contact").click(function(){
     $("#portfolio").hide();
     $("#contact").show();
 })
-
+//resume download button handler
 $("#resume-download").on("click", function(event){
     event.preventDefault();
     window.location.href = "./assets/files/Zelazny Resume.pdf";
