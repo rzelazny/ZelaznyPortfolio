@@ -1,14 +1,15 @@
-# ZelaznyPortfolio
+# Ryan Zelazny Portfolio Page
+![Badge license MIT](https://img.shields.io/badge/license-MIT-green)
 
-## About me
+
+## Description
 ![Zelazny headshot](https://github.com/rzelazny/ZelaznyPortfolio/blob/main/assets/images/headshot.jpg)
 
-My biography page. Includes my educationa and coding language proficiencies.
+My portfolio page. Gives a brief bio and shows some of my recent projects. Contains my contact info and a copy of my resume for download.
 
-## Portfolio
-A list of my most recent projects. Includes a link to my GitHub repositories.
+## Questions
 
-## Contact Info
-How to reach me, including on LinkedIn or GitHub.
+Free free to reach out at RyanZelazny@gmail.com
 
+### Link
 [Zelazny Bio page](https://rzelazny.github.io/ZelaznyPortfolio/)
