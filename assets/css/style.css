@@ -39,6 +39,11 @@ body{
     margin-bottom: 20px;
 }
 
+.carousel-caption{
+    font-size: 20px;
+    color: black;
+}
+
   /* Darker background on mouse-over */
 .btn:hover {
     background-color: RoyalBlue;
