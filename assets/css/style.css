@@ -3,11 +3,12 @@
     display:none;
 }
 body{
-    background-image: url("../images/background.jpg");
-    background-size: 2000px;
+    background-image: url("../images/background2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .container{
-    background-color: blanchedalmond;
+    background-image: url("../images/inner_background.png");
     border: darkgray;
     border-style: ridge;
     border-width: 2px;
