@@ -1,22 +1,20 @@
-///////////event handlers///////////////
-//nav bar event handlers
-$("#nav-home").click(function(){
-    console.log(this.id);
-    $("#home").show();
-    $("#portfolio").hide();
-    $("#contact").hide();
+//nav bar event handler
+$(".nav-link").click(function(){
+    $(".nav-link").removeClass("active");
+    $(this).addClass("active");
+    toggleView(this.id);
 })
-$("#nav-portfolio").click(function(){
-    $("#home").hide();
-    $("#portfolio").show();
-    $("#contact").hide();
-})
-$("#nav-contact").click(function(){
+
+//show and hide sections based on user navigation
+function toggleView (display){
     $("#home").hide();
     $("#portfolio").hide();
-    $("#contact").show();
-})
-//resume download button handler
+    $("#contact").hide();
+
+    $("#" + display.replace(/nav-/, "")).show();
+}
+
+//resume download button
 $("#resume-download").on("click", function(event){
     event.preventDefault();
     window.location.href = "./assets/files/Zelazny Resume.pdf";
